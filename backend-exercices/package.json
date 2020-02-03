@@ -1,0 +1,17 @@
+{
+  "name": "backend-exercices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
