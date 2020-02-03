@@ -1,0 +1,17 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Page not found</title>
+{% endblock %}
+
+{%block head_body %} {% endblock %}
+
+{% block content %}
+    <div class="page-not-found">
+        <h1>Error 404!</h1>
+        <p>
+            Não foi possível encontrar esta rota, por favor, tente uma rota válida.
+            Ex: localhost:5000 ou localhost:5000/about
+        </p>
+    </div>
+{% endblock %}
